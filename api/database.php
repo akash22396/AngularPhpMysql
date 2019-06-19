@@ -7,9 +7,9 @@ header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS');
 header('Access-Control-Max-Age: 1000');
 header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
 
-define('DB_HOST', '192.168.10.194');
-define('DB_USER', 'bioas_user');
-define('DB_PASS', 'BioasUser');
+define('DB_HOST', '');
+define('DB_USER', '');
+define('DB_PASS', ');
 define('DB_NAME', 'mywebsite');
 
 function connect()
